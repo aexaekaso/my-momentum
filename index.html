@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Momentum</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8edaa3dabd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="login-page" class="wallpaper">
+    <header>
+      <div class="signal">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <i class="fa-solid fa-lock"></i>
+      <div class="battery">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+      </div>
+    </header>
+
+    <div class="clock-date-info">
+      <h2 id="clock">00:00</h2>
+      <h3 id="date">00월 00일 0요일</h3>
+    </div>
+  
+    <form action="" method="GET" id="login-form" class="scale-up-center">
+      <i class="fa-solid fa-square-envelope"></i>
+      <div class="name-input">
+        <label for="user-name">What's your name?</label>
+        <input type="text" id="user-name" maxlength="15" required />
+        <button type="submit" id="login-button">Unlock</button>
+      </div>
+      <span>now</span>
+    </form>
+
+    <footer>
+      <span>enter to unlock</span>
+      <i class="fa-solid fa-circle"></i>
+    </footer>
+  </section>
+
+  <main id="main-page" class="wallpaper hidden">
+    <header>
+      <div class="signal">
+        <i class="fa-solid fa-signal"></i>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <i class="fa-solid fa-lock"></i>
+      <div class="battery">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+      </div>
+    </header>
+
+    <div id="user-status">
+      <div class="user-info">
+        <h1 id="greeting">Hello!</h1>
+        <button type="button" id="logout-button">Lock
+        </button>
+      </div>
+      <div class="clock-date-info">
+        <h2 id="clock">00:00</h2>
+        <h3 id="date">00월 00일 0요일</h3>
+      </div>
+    </div>
+
+    <div id="user-life">
+      <div id="weather" class="shadow-pop">
+        <div class="now-weather">
+          <span></span>
+          <img />
+          <span></span>
+          <span></span>
+        </div>
+        <div class="now-outfit">
+          <p>Let's see...</p>
+        </div>
+      </div>
+  
+      <div id="todo" class="shadow-pop">
+        <span>TO DO</span>
+        <form action="" method="POST" id="todo-form">
+          <input type="text" placeholder="Write a TO DO and press the Enter" />
+        </form>
+        <ul id="todo-list">
+
+        </ul>
+      </div>
+    </div>
+    
+    <footer>
+      <i class="fa-solid fa-circle"></i>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/wallpaper.js"></script>
+  <script src="js/clock-and-date.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/to-do.js"></script>
+</body>
+</html>
