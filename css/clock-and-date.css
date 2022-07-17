@@ -1,0 +1,22 @@
+.clock-date-info {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+#main-page .clock-date-info {
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#clock {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+#main-page #clock {
+  margin-bottom: 4px;
+}
+
+#date {
+  font-size: 24px;
+}

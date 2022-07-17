@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between; align-items: center;
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+
+#main-page header {
+  font-size: 14px;
+  margin-bottom: 36px;
+}
+
+.fa-lock {
+  position: absolute;
+  top: 8px; left: 50%;
+  transform: translateX(-50%);
+}
+
+.fa-battery-full {
+  transform: scale(1.4);
+}
